@@ -104,6 +104,10 @@ body {
     padding-left: 100px;
   }
  
+  .copyright {
+    content: "&copy; me";
+    /* other formatting */
+}
   
   /* ADDED AFTER THE M2-D4 LESSON */
   a {
