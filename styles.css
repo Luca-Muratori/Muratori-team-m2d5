@@ -1,7 +1,8 @@
 body {
-    background-color: #000000;
+    background-color: rgb(36, 35, 35);
     color: white;
     font-family: "Open Sans", sans-serif;
+    font-size: 10px;
   }
   
   .bg-strive-video {
@@ -140,5 +141,24 @@ body {
   }
   
   footer ul:last-of-type {
-    color: rgba(255, 255, 255, 0.45);
+    color: rgba(255, 255, 255, 0.678);
+  }
+
+  hr{
+    color: white;
+    size: 110px;
+    align-content: center;
+    width: 50%;
+  }
+
+
+  .checkbox{
+    width: 2rem;
+    height: 1rem;
+
+  }
+
+  #foot{
+    display: flex;
+    flex-direction: row;
   }
