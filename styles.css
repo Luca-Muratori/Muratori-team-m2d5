@@ -79,7 +79,22 @@ body {
     margin-top: 10px;
     margin-bottom: 1rem;
   }
+
+  h5{
+    margin-left: 15px;
+  }
   
+.bg-black{
+  margin-top: 20px;
+}
+
+
+  #navbarDarkDropdownMenuLink{
+    border: 1px solid white;
+    padding: 8px;
+    color:white;
+    margin-top: -7px;
+  }
   .dropdown .dropdown-toggle {
     color: rgb(255, 255, 255);
   }
@@ -117,7 +132,7 @@ body {
     display: inline-block;
     width: 120px;
     height: 48px;
-    background-image: url("../logo/strivevideo.png");
+    
     background-repeat: no-repeat;
     background-size: contain;
   }
