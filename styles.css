@@ -91,7 +91,7 @@ body {
 
   #navbarDarkDropdownMenuLink{
     border: 1px solid white;
-    padding: 8px;
+    padding: 3px;
     color:white;
     margin-top: -7px;
   }
@@ -99,21 +99,11 @@ body {
     color: rgb(255, 255, 255);
   }
   
-  .carousel-indicators li {
-    width: 13px;
-    height: 13px;
-    border-radius: 50%;
+  .socialIcon{
+    width: 15%;
+    padding-left: 100px;
   }
-  
-  .prime-logo {
-    position: relative;
-    bottom: 2px;
-  }
-  .prime-badge {
-    position: absolute;
-    top: 0;
-    left: 0.25rem;
-  }
+ 
   
   /* ADDED AFTER THE M2-D4 LESSON */
   a {
