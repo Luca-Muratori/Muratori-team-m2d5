@@ -1,4 +1,4 @@
-img{
+.netflix{
     width: 50px;
     height: 50px;
 }
@@ -6,4 +6,11 @@ img{
 
 body{
     background-color: black;
+    
+}
+
+.carousel{
+    width: 100%; /* for example */
+    height: 100%;
+    margin: auto;
 }
