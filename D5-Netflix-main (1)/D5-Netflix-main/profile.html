@@ -1,114 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <link rel="stylesheet" href="/css/profile.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap" rel="stylesheet" />
 
-    <title>Profile</title>
-  </head>
-  <body>
-    <div class="logo-div">
-      <img
-        width="130"
-        class="logo"
-        src="/assets/netflix_logo.png"
-        alt="Netflix Logo"
-      />
+  <link rel="stylesheet" href="/css/profile.css" />
+
+  <title>Profile</title>
+</head>
+
+<body>
+  <div class="logo-div">
+    <img width="130" class="logo" src="/assets/netflix_logo.png" alt="Netflix Logo" />
+  </div>
+  <div class="container-fluid">
+    <div class="profile row">
+      <h1>Edit Profile</h1>
     </div>
-    <div class="container">
-      <div class="profile row">
-        <h1>Edit Profile</h1>
+    <div class="line"></div>
+    <div class="row row-two">
+      <div class="col col-5 img-box">
+        <img class="img-avatar" src="/assets/avatar.png" alt="Avatar" />
       </div>
-      <div class="line"></div>
-      <div class="row row-two">
-        <div class="col col-5 img-box">
-          <img class="img-avatar" src="/assets/avatar.png" alt="Avatar" />
-        </div>
-        <div class="col col-7 name-container">
-          <p class="name-box">User Name</p>
-          <div class="dropdown-box">
-            <p>Language:</p>
-            <div class="dropdown">
-              <button
-                class="btn btn-secondary dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton"
-                data-toggle="dropdown"
-                aria-expanded="false"
-              >
-                English
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Other</a>
-                <a class="dropdown-item" href="#">Other</a>
-                <a class="dropdown-item" href="#">Other</a>
-              </div>
+      <div class="col col-7 name-container">
+        <p class="name-box">User Name</p>
+        <div class="dropdown-box">
+          <p>Language:</p>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+              data-toggle="dropdown" aria-expanded="false">
+              English
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Other</a>
+              <a class="dropdown-item" href="#">Other</a>
+              <a class="dropdown-item" href="#">Other</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="line"></div>
+    </div>
+    <div class="line"></div>
 
-      <div class="row">
-        <div class="col-lg-5"></div>
-        <div class="col-lg-7">
-          <div id="settings">Maturity Settings:</div>
+    <div class="row">
+      <div class="col-lg-5"></div>
+      <div class="col-lg-7">
+        <div id="settings">Maturity Settings:</div>
 
-          <button id="maturity" input type="submit" class="btn btn-primary">
-            ALL MATURITY RATINGS
-          </button>
-          <div>show titles for all maturity ratings for this profile.</div>
-          <button id="edit" input type="submit" class="btn btn-primary">
-            EDIT
-          </button>
-        </div>
-        <div class="line"></div>
+        <button id="maturity" input type="submit" class="btn btn-primary">
+          ALL MATURITY RATINGS
+        </button>
+        <div>show titles for all maturity ratings for this profile.</div>
+        <button id="edit" input type="submit" class="btn btn-primary">
+          EDIT
+        </button>
       </div>
+      <div class="line"></div>
+    </div>
 
-      <div class="row">
-        <div class="col-lg-5" > </div>
-        <div class="col-lg-7">
+    <div class="row">
+      <div class="col-lg-5"> </div>
+      <div class="col-lg-7">
         <div id="settings">
-            <h3>Autoplay controls</h3>
+          <h3>Autoplay controls</h3>
         </div>
 
         <div class="container ">
-            <div class=" ">
-                <input type="checkbox" class='checkbox text-sm-center' >
-                <label class=''>Autoplay next episode in a series of all devices</label>
-            </div>
-            <div class="">
-                <input type="checkbox" class='checkbox text-sm-left' >
-                <label class=''>Autoplay next episode in a series of all devices</label>
-            </div>
+          <div class=" ">
+            <input type="checkbox" class='checkbox text-sm-center'>
+            <label class=''>Autoplay next episode in a series of all devices</label>
+          </div>
+          <div class="">
+            <input type="checkbox" class='checkbox text-sm-left'>
+            <label class=''>Autoplay next episode in a series of all devices</label>
+          </div>
         </div>
         <div class="line"></div>
-      <div class="container d-flex">
-        <div class="row">
+        <div class="container d-flex">
+          <div class="row">
             <div><button type="button" class="btn btn-light">Save</button></div>
             <div><button type="button" class="btn btn-dark">Cancel</button></div>
             <div><button type="button" class="btn btn-dark">Delete Profile</button></div>
+          </div>
         </div>
-    </div>
 
-    </div>
-  </body>
+      </div>
+</body>
+
 </html>
